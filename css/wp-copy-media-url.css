@@ -1,0 +1,46 @@
+.wp-cmu-copy-btn,.wp-cmu-copy-btn-list {cursor: pointer;}
+.copy-media-url .thumbnail-wp-cmu-copy-btn{position: absolute;bottom:0;z-index: 999;width: 100%;}
+.copy-media-url .thumbnail-wp-cmu-copy-btn .button.button-primary{width: 100%;border-radius: 0;}
+.button.button-primary.wp-cmu-copy-btn-right {margin-top:15px;}
+.button.button-primary.wp-cmu-copy-btn.active:hover,.button.button-primary.wp-cmu-copy-btn:active,
+.button.button-primary.wp-cmu-copy-btn-list.active:hover,.button.button-primary.wp-cmu-copy-btn-list:active{-webkit-transform: translateY(0px);transform: translateY(0px);}
+.button.button-primary.wp-cmu-copy-btn-list {float: right;margin: 4px;}
+/*Setting Page CSS*/
+.wp-cmu-sec .nav-tab-active {border-bottom: none;background: #FFF;}
+.wp-cmu-row {width:100%;float:left;background: #FFF;}
+.wp-cmu-setting {width: 60%;float:left;}
+.wp-cmu-setting form{margin:10px;}
+.wp-cmu-setting table th{padding:8px 15px 8px 0px;}
+.wp-cmu-setting table th label h2{margin:8px 0px;}
+.wp-cmu-setting table td{padding:8px 15px 8px 0px;}
+.wp-cmu-sidebar-boxes-main{width:40%;float:right;}
+.wp-cmu-sidebar-box{background:#222;padding:15px;margin: 15px;font-size: 14px;font-weight: 400;line-height: 18px; color:#EEE;letter-spacing:0.7px;}
+.wp-cmu-sidebar-box h3{color:#fff; padding-top:0; margin-top:0; letter-spacing:0.7px;}
+.wp-cmu-sidebar-box p{color:#d0d0d0; letter-spacing:0.7px;}
+.wp-cmu-sidebar-box p a{color:#f6822d;text-decoration:none;font-size: 14px;font-weight: 400;line-height: 18px;}
+.wp-cmu-sidebar-box .inside ul li {width:100%;padding: 4px 0px;}
+.wp-cmu-sidebar-box .inside ul li a{text-decoration: none;color:#f6822d;}
+.wp-cmu-sidebar-box .inside ul li a:hover,.wp-cmu-sidebar-box .inside ul li a:focus{text-decoration: underline;}
+.wp-cmu-sidebar-box .inside ul li p{color:#fff;}
+.wp-cmu-sidebar-box p a:hover{text-decoration:underline;}
+.wp-cmu-sidebar-box .wp-cmu-rate-sec {width:100%;}
+.wp-cmu-sidebar-box .wp-cmu-rate-sec a {color:#f6822d;text-decoration: none;}
+.wp-cmu-sidebar-box .wp-cmu-rate-sec a.rate-star {float: right;}
+.wp-cmu-sidebar-box .wp-cmu-rate-sec a:hover {text-decoration: underline;}
+.copy-media-url .thumbnail-wp-cmu-copy-btn{position: absolute;bottom:0;z-index: 999;width: 100%;opacity: 0;}
+.copy-media-url .attachment-preview:hover .thumbnail-wp-cmu-copy-btn {opacity: 1;}
+@media (max-width: 960px){
+    .wp-cmu-setting table td input{max-width: 200px;}
+    .copy-media-url .thumbnail-wp-cmu-copy-btn .button.button-primary{margin-bottom:0 !important;}
+
+}
+@media (max-width: 767px){
+    .wp-cmu-setting {width: 100%;}
+    .wp-cmu-setting table td input{max-width: 100%;}
+    .wp-cmu-sidebar-boxes-main {width:100%;padding:0;}
+}
+@media (max-width: 640px){
+    .wp-cmu-setting p.submit {max-width: 200px;}
+    .wp-cmu-setting table th{width: 100%;float:left;}
+    .wp-cmu-setting table td input{width: 100%;}
+}
